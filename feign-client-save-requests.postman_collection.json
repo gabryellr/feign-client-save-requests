@@ -1,0 +1,73 @@
+{
+  "info": {
+    "_postman_id": "b45885cf-1608-438a-8b6f-f83877b541cf",
+    "name": "feign-client-save-requests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Success call",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "default"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"postId\": 0,\r\n  \"title\": \"string\",\r\n  \"body\": \"string\"\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/v1/requests/success",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "requests",
+            "success"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Bad Request call",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "default"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"postId\": 0,\r\n  \"title\": \"string\",\r\n  \"body\": \"string\"\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/v1/requests/bad-request",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "requests",
+            "bad-request"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
