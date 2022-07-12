@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Configuration when the body received from all Feign requests need be saved
+Configuration when the body received from all Feign requests needs to be saved
 
 ## Technologies
 
